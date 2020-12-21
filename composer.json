@@ -1,0 +1,22 @@
+{
+    "name": "dung/user",
+    "authors": [
+        {
+            "name": "Dunghedspi",
+            "email": "dung.nv.soict@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dung\\User\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dung\\User\\UserServiceProviders"
+            ]
+        }
+    },
+    "require": {}
+}
